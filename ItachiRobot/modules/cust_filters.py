@@ -15,15 +15,15 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from SaitamaRobot import dispatcher, LOGGER, DRAGONS
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from SaitamaRobot.modules.helper_funcs.chat_status import user_admin
-from SaitamaRobot.modules.helper_funcs.extraction import extract_text
-from SaitamaRobot.modules.helper_funcs.filters import CustomFilters
-from SaitamaRobot.modules.helper_funcs.misc import build_keyboard_parser
-from SaitamaRobot.modules.helper_funcs.msg_types import get_filter_type
-from SaitamaRobot.modules.helper_funcs.string_handling import (
+from ItachiRobot import dispatcher, LOGGER, DRAGONS
+from ItachiRobot.modules.disable import DisableAbleCommandHandler
+from ItachiRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from ItachiRobot.modules.helper_funcs.chat_status import user_admin
+from ItachiRobot.modules.helper_funcs.extraction import extract_text
+from ItachiRobot.modules.helper_funcs.filters import CustomFilters
+from ItachiRobot.modules.helper_funcs.misc import build_keyboard_parser
+from ItachiRobot.modules.helper_funcs.msg_types import get_filter_type
+from ItachiRobot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
