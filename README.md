@@ -1,7 +1,7 @@
 # ItachiRobot // @Itachirobot
 > with Naruto: ナルト theme.
 
-[![GitHub forks](https://img.shields.io/github/forks/AnimeKaizoku/SaitamaRobot.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/anilchauhanxda/allukabot/network/) [![GitHub stars](https://img.shields.io/github/stars/anilchauhanxda/allukabot.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/anilchauhanxda/allukabot/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/AnimeKaizoku/SaitamaRobot.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Tusharpalx/ItachiRobot/network/) [![GitHub stars](https://img.shields.io/github/stars/anilchauhanxda/allukabot.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/anilchauhanxda/allukabot/stargazers/)
 
 Modular Naruto: ナルト themed Telegram Bot for managing your group with additional features.
 
