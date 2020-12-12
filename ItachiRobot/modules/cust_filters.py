@@ -29,11 +29,11 @@ from ItachiRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from SaitamaRobot.modules.sql import cust_filters_sql as sql
+from ItachiRobot.modules.sql import cust_filters_sql as sql
 
-from SaitamaRobot.modules.connection import connected
+from ItachiRobot.modules.connection import connected
 
-from SaitamaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from ItachiRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
