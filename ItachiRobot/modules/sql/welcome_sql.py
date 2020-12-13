@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from SaitamaRobot.modules.helper_funcs.msg_types import Types
-from SaitamaRobot.modules.sql import BASE, SESSION
+from ItachiRobot.modules.helper_funcs.msg_types import Types
+from ItachiRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (BigInteger, Boolean, Column, Integer, String,
                         UnicodeText)
 
@@ -163,6 +163,7 @@ DEFAULT_GOODBYE_MESSAGES = [
     "{first} is out of the running.",
     "Nice knowing ya, {first}!",
     "It was a fun time {first}.",
+    "Pehli Fursat Me Nikal {first}.",
     "We hope to see you again soon, {first}.",
     "I donut want to say goodbye, {first}.",
     "Goodbye {first}! Guess who's gonna miss you :')",
