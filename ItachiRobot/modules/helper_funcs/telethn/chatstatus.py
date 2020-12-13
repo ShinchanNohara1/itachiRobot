@@ -1,5 +1,5 @@
-from SaitamaRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from SaitamaRobot import DRAGONS
+from ItachiRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from ItachiRobot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
