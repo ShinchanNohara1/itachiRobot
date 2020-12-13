@@ -14,9 +14,9 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [Itachi Robot](https://t.me/Itachirobot).
 
-The Support group can be reached out to at [Uchiha Clan Support](https://t.me/uchihaclanx), where you can ask for help about [SaitamaRobot](https://t.me/TanjiroKamadoRoBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Uchiha Clan Support](https://t.me/uchihaclanx), where you can ask for help about [ItachiRobot](https://t.me/itachiRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Uchiha Clan Updates](https://t.me/) 
+News channel as at [Uchiha Clan Updates](https://t.me/itachiupdates) 
 
 ## How to setup/deploy.
 
@@ -36,7 +36,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tusharpalx/itachirobot.git)
 
 </details>  
 <details>
