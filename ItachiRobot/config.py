@@ -4,7 +4,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open('{}/SaitamaRobot/{}'.format(os.getcwd(), config),
+    with open('{}/ItachiRobot/{}'.format(os.getcwd(), config),
               'r') as json_file:
         return json.load(json_file)[key]
 
@@ -15,9 +15,9 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1670991 # integer value, dont use ""
-    API_HASH = "2ff143ba2b9e09a40bf1dc4a99f4d528"
-    TOKEN = "1080926584:AAFuAV4izhA6HWHSpjuW2lL0-84lh91aJS4"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = -1234 # integer value, dont use ""
+    API_HASH = "awoo"
+    TOKEN = "Token"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1202112402  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Captainlevix"
     SUPPORT_CHAT = 'uchihaclanx'  #Your own group for support, do not add the @
