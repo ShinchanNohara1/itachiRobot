@@ -52,14 +52,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-An anime theme Awesome group management.
-use me to maintain your group or Get into my Genjutsu. Hit /help to know more about my powers.
+I am Itachi an Anime Naruto ナルト Theme Bot. use me to maintain your group or Get into my Genjutsu. Hit /help to know more about my powers.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
+Hey there! I am *{}*.
+ From konoha Village. Add me In your Groups so a uchicha can protect you. btw i am stronger than madara.
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -76,7 +74,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/a61b944b57a1b1590fb87.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 itachi is hosted on free database so ofcourse we need donation to improve our power of bot.
