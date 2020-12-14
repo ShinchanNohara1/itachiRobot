@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/SaitamaRobot
-RUN git clone -b shiken https://github.com/AnimeKaizoku/SaitamaRobot /root/SaitamaRobot
-WORKDIR /root/SaitamaRobot
+RUN git clone -b shiken https://github.com/tusharpalx/ItachiRobot /root/ItachiRobot
+WORKDIR /root/ItachiRobot
 
 #Copy config file to /root/SaitamaRobot/SaitamaRobot
-COPY ./SaitamaRobot/sample_config.py ./SaitamaRobot/config.py* /root/SaitamaRobot/SaitamaRobot/
+COPY ./ItachiRobot/sample_config.py ./ItachiRobot/config.py* /root/ItachiRobot/ItachiRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
