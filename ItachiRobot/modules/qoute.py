@@ -372,7 +372,7 @@ async def replied_user(draw, tot, text, maxlength, title):
                 draw.text((180 + space, 132), letter, font=textfont, fill="white")
                 space += textfont.getsize(letter)[0]
 
-@register(pattern="^/qu")
+@register(pattern="^/q")
 async def _(event):
     if event.fwd_from:
         return
@@ -392,6 +392,6 @@ async def _(event):
 __help__ = """
    /quote :- create a quote from a message.
 For that just reply to a message.
-   /qu :- Short code of /quote
+   /q :- Short command of /quote
 """
 __mod_name__ = "Quote"
