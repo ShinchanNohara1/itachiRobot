@@ -250,6 +250,7 @@ __help__ = """
  • `/weebify <text>`*:* returns a weebified text
  • `/sanitize`*:* always use this before /pat or any contact
  • `/pat`*:* pats a user, or get patted
+ • `/aq`*:* get random anime quote
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
