@@ -8,7 +8,7 @@ from ItachiRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater)
 
-pbot = Client("saitama", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+from tg_bot import pbot
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from ItachiRobot.modules import ALL_MODULES
