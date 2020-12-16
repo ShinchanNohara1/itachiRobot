@@ -32,3 +32,4 @@ pyrate-limiter
 cachetools
 pyrogram
 asyncio
+TgCrypto
